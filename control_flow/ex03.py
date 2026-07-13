@@ -1,0 +1,12 @@
+num=int(input("Enter a number:"))
+x=0
+y=1
+count=2
+fibonacci=0
+print(x,y, end=" ")
+while count!=num+1:
+    fibonacci=x+y
+    x=y
+    y=fibonacci
+    count+=1
+    print(fibonacci, end=" ")
